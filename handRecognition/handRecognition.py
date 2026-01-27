@@ -7,7 +7,7 @@ import mediapipe as mp
 from mediapipe.tasks.python import BaseOptions, vision
 
 from camera.cameraCapture import CameraCapture
-from gestureActions.actions import handleGesture
+from gestureActions.actionHandler import handleGesture
 
 modelPath = os.path.join(
     os.path.dirname(__file__), "..", "models", "gesture_recognizer.task"
